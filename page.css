@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color:chocolate;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.profile-image{
+  display: block;          
+  margin: 20px auto;     
+  max-width: 100%;       
+  height: auto;          
+  width: 150px;  
+}
+
+#about-me, #list, #skills, #projects, #contact {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 600px;
+}
+
+ul, ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color:chocolate;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
